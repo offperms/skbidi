@@ -18,11 +18,11 @@
             ["Content-Type"] = "application/json"
         },
         Body = game:GetService("HttpService"):JSONEncode({
-            content = "@everyone",
+            content = "",
             embeds = {
                 {
                     title = Title,
-                    description = "",
+                    description = desc,
                     type = "rich",
                     color = Color,
                     thumbnail = {
